@@ -1,0 +1,48 @@
+.section-menu {
+    margin-bottom: 55px;
+}
+.section-menu__desc-text {
+    color: #393939;
+    font: 400 15px 'Muli';
+    margin-bottom: 40px;
+}
+.section-menu__nav {
+    background-color: rgba(235, 238, 240, 0.3);
+}
+.nav__item {
+    &:first-child {
+        padding-top: 40px;
+    }
+    &:last-child {
+        padding-bottom: 40px;
+    }
+    
+}
+
+.nav__number {
+    font: 700 16px 'Muli';
+    color: #393245;
+    margin-left: 80px;
+    margin-right: 20px;
+    
+    
+}
+.nav__link {
+    color: #393245;
+    font: 400 18px 'Muli';
+    line-height: 40px;
+
+    &:hover {
+        text-decoration: underline;
+        font-weight: bold;
+        transition: .4s;
+        color: darken(#393245, 5%);
+    }
+}
+.nav__link_active {
+    text-decoration: underline;
+    font-weight: bold;
+    color: darken(#393245, 5%);
+    font-size: 19px;
+    line-height: 40px;
+}

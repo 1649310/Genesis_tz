@@ -1,0 +1,48 @@
+.section-people {
+    margin-top: 115px;
+}
+.section-people__foto {
+    width: 240px;
+    height: 240px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.section-people__name {
+    color: #232632;
+    font: 700 15px 'Muli';
+}
+.section-people__about {
+    color: #1b202c;
+    font: 400 12px 'Mili';
+    margin-bottom: 25px;
+}
+.button {
+    font: 700 15px 'Muli';
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    
+}
+.button_dislike {
+    background-color: #a7b4ba;
+    padding: 13px 32px 10px;
+    margin-right: 10px;
+    border: 1px solid transparent;
+    &:hover {
+        background-color: #fff;
+        color: #a7b4ba;
+        transition: .4s;
+        border: 1px solid #a7b4ba;
+    }
+}
+.button_like {
+    padding: 13px 40px 10px;
+    background-image: linear-gradient(180deg, #66c943 0%, #369920 100%);
+    border: 1px solid transparent;
+    &:hover {
+        background: #fff;
+        color: #369920;
+        transition: .4s;
+        border: 1px solid #369920;
+    }
+}

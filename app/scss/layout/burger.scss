@@ -1,0 +1,40 @@
+@media (max-width: 600px) {
+    .burger {
+        display: flex;
+        width: 18px;
+        height: 12px;
+        flex-wrap: wrap;
+        position: absolute;
+        z-index: 12;
+        right: 20px;
+        top: 22px;
+        
+    }
+
+    .burger span {
+        width: 18px;
+         height: 2px;
+        position: absolute;
+        background-color: #fff;
+        margin: 3px 0;
+        transition: all 0.25s ease;
+    }
+    .burger .line-1{
+        top: -6px;
+    }
+    .burger .line-3 {
+        top: 6px;
+    }
+    .burger.open .line-2 {
+        opacity: 0;
+    }
+    .burger.open .line-3 {
+        transform: rotate(45deg);
+        top: 0;
+    }
+  
+    .burger.open .line-1 {
+        transform: rotate(-45deg);
+        top: 0;
+    }
+  }

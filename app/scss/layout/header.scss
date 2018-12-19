@@ -1,0 +1,48 @@
+.header {
+    box-shadow: 0 1px 3px rgba(14, 48, 72, 0.5);
+    background-color: #16141a; 
+    margin-bottom: 20px;
+}
+.container_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    display: inline-block;
+    margin: 12px 0 6px;
+}
+.logo__pic {
+    display: block;
+    max-width: 125px;
+    max-height: 40px;
+}
+.menu {
+    display: flex;
+}
+.menu__item {
+    padding-right: 22px;
+
+    &:last-child {
+        padding-right: 0;
+    }
+}
+.menu__link {
+    font: 700 15px 'Muli';
+    text-transform: uppercase;
+    color: #fff;;
+    &:hover {
+        text-decoration: underline;
+        color: #ea053a;
+        transition: .3s;
+    }
+}
+.menu__link_active {
+    text-decoration: underline;
+    color: #ea053a;
+}
+.burger__menu {
+    width: 18px;
+    height: 2px;
+    background-color: #fff;
+}
